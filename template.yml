@@ -4,7 +4,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: udacity
+      KeyName: circlecli
       ImageId: 'ami-02f147dfb8be58a10'
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
